@@ -5,7 +5,7 @@ const express = require('express');
 
 // Constants
 const PORT = 8080;
-const HOST = 'localhost';
+const HOST = '0.0.0.0';
 
 const intanceRandomNumber = random.makeid(7);
 
