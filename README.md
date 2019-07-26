@@ -5,6 +5,6 @@ Simple Hello world application using node.js in docker
 npm install
 npm start
 
-# install and run in docker
+## install and run in docker
 npm run buildDockerImage
 npm run startDocker
