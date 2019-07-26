@@ -1,0 +1,13 @@
+{
+  "name": "nodejs_docker_hello_world",
+  "version": "0.0.1",
+  "description": "Simple Hello world application using node.js in docker",
+  "author": "Radek Sedlak <r.sedlak@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
