@@ -5,7 +5,8 @@
   "author": "Radek Sedlak <r.sedlak@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js",
+    "buildDockerImage": "docker build -t node-web-app ."
   },
   "dependencies": {
     "express": "^4.17.1"
