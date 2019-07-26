@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
+    "startDocker": "docker run -p 8080:8080 -d node-web-app",
     "buildDockerImage": "docker build -t node-web-app ."
   },
   "dependencies": {
