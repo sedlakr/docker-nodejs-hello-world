@@ -12,7 +12,16 @@ const intanceRandomNumber = random.makeid(7);
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send(`Hello world: #${intanceRandomNumber}<br/>Date: ${new Date()}`);
+    let headers = req.headers;
+    res.send(`Hello world: #${intanceRandomNumber}<br/>
+        Date: ${new Date()}<br/>
+        <table>
+        ${
+            Object.keys(headers).map(key => `<tr><td>${key}</td><td>${headers[key]}</td></tr>`)
+        }
+         </table>
+    `
+    );
 });
 
 app.listen(PORT, HOST);
