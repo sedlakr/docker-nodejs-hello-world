@@ -10,6 +10,6 @@
     "buildDockerImage": "docker build -t node-web-app ."
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
